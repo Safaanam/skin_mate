@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:skin_mate/Screens/SignIn.dart';
 
 
 class WelcomeScreen extends StatelessWidget {
@@ -128,8 +129,8 @@ class WelcomeScreen extends StatelessWidget {
                             ),
                             textColor: Colors.white,
                             onPressed: () {
-                              //Navigator.push(
-                                 // context, MaterialPageRoute(builder: (_) => SignInPage()));
+                              Navigator.push(
+                                  context, MaterialPageRoute(builder: (_) => SignInPage()));
                             },
                           ),
                         ),
